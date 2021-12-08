@@ -7,12 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Entry Points", "01 - E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Global Solution Items", "00 - Global Solution Items", "{98D6973F-56F8-4CEE-B207-1DD29ABA7C9C}"
 	ProjectSection(SolutionItems) = preProject
-		.dockerignore = .dockerignore
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		directory.build.props = directory.build.props
-		Dockerfile = Dockerfile
-		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.DataPortal.Website.EntryPoint", "src\Ofl.DataPortal.Website.EntryPoint\Ofl.DataPortal.Website.EntryPoint.csproj", "{A8545140-EB04-4924-845D-4FCE6C63FF62}"
