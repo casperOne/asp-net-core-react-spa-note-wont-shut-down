@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Entry Points", "01 - Entry Points", "{66C05106-C78E-4DDB-8F50-109C13EBC630}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Global Solution Items", "00 - Global Solution Items", "{98D6973F-56F8-4CEE-B207-1DD29ABA7C9C}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		directory.build.props = directory.build.props
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.DataPortal.Website.EntryPoint", "src\Ofl.DataPortal.Website.EntryPoint\Ofl.DataPortal.Website.EntryPoint.csproj", "{A8545140-EB04-4924-845D-4FCE6C63FF62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8545140-EB04-4924-845D-4FCE6C63FF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8545140-EB04-4924-845D-4FCE6C63FF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8545140-EB04-4924-845D-4FCE6C63FF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8545140-EB04-4924-845D-4FCE6C63FF62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8545140-EB04-4924-845D-4FCE6C63FF62} = {66C05106-C78E-4DDB-8F50-109C13EBC630}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDA947A8-F70B-4E9B-9B7D-E232C1D334F9}
+	EndGlobalSection
+EndGlobal

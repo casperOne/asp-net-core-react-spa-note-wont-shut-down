@@ -1,0 +1,74 @@
+﻿.top-level-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-container {
+    flex: 1;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.content-container-full-width {
+    flex: 1;
+    padding-right: 0;
+    padding-left: 0;
+}
+  
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+.row {
+    margin-bottom: 1rem
+}
+
+.top-margin {
+    margin-top: 1rem
+}
+
+/* For react tags input */
+.react-tagsinput {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.react-tagsinput-tag {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.react-tagsinput-input {
+    background: transparent;
+    border: 0 !important;
+    color: #ccc;
+    margin-bottom: 6px;
+    margin-top: 1px;
+    outline: none;
+    padding: 5px;
+}
+
+/* For rc-menu, eliminates top border. */
+ul.rc-menu { 
+    -webkit-margin-before: 0; 
+}
+
+/* For semantic-ui, allows shifting of content to the right. */
+.numeric input {
+    text-align: right !important
+}
+
+/* For react date picker to inherit whatever font is being used. */
+.react-datepicker {
+    font-family: inherit
+}
